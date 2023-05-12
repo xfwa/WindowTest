@@ -6,8 +6,11 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "GTVideoViewController.h"
+#import "GTRecommendViewController.h"
 
-@interface AppDelegate ()
+@interface AppDelegate()<UITabBarControllerDelegate>
 
 @end
 
@@ -15,26 +18,33 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+      self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    UITabBarController *tabBarController = [[UITabBarController alloc]init];
+    ViewController *viewController1 = [[ViewController alloc]init];
+//    viewController1.view.backgroundColor = [UIColor redColor];
+    viewController1.tabBarItem.title = @"新闻";
+    //指向delegate
+    tabBarController.delegate = self;
+    GTVideoViewController *videoController = [[GTVideoViewController alloc]init];
+    
+    GTRecommendViewController *recommendVC = [[GTRecommendViewController alloc]init];
+    
+    UIViewController *viewController4 = [[UIViewController alloc]init];
+    viewController4.tabBarItem.title = @"我的";
+    viewController4.view.backgroundColor = [UIColor blueColor];
+    
+    //将创建的viewController添加到UITabBarController
+    [tabBarController setViewControllers:@[viewController1,videoController,recommendVC,viewController4]];
+    tabBarController.tabBar.backgroundColor = [UIColor whiteColor];
+    UINavigationController *navigation = [[UINavigationController alloc]initWithRootViewController:tabBarController];
+    self.window.rootViewController = navigation;
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 
-
-#pragma mark - UISceneSession lifecycle
-
-
-- (UISceneConfiguration *)application:(UIApplication *)application configurationForConnectingSceneSession:(UISceneSession *)connectingSceneSession options:(UISceneConnectionOptions *)options {
-    // Called when a new scene session is being created.
-    // Use this method to select a configuration to create the new scene with.
-    return [[UISceneConfiguration alloc] initWithName:@"Default Configuration" sessionRole:connectingSceneSession.role];
+- (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController{
+    NSLog(@"点击了底部标题");
 }
-
-
-- (void)application:(UIApplication *)application didDiscardSceneSessions:(NSSet<UISceneSession *> *)sceneSessions {
-    // Called when the user discards a scene session.
-    // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-    // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
-}
-
 
 @end

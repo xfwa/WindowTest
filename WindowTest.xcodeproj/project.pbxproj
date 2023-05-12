@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044EC6E92A0E0B840052AA93 /* GTNormalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 044EC6E82A0E0B840052AA93 /* GTNormalTableViewCell.m */; };
+		04A0E7822A0CD2FA0039B81E /* GTVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A0E7812A0CD2FA0039B81E /* GTVideoViewController.m */; };
+		04A0E7882A0CE5F20039B81E /* GTRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A0E7872A0CE5F20039B81E /* GTRecommendViewController.m */; };
 		04DAFDA22A09D8F300667531 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DAFDA12A09D8F300667531 /* AppDelegate.m */; };
-		04DAFDA52A09D8F300667531 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DAFDA42A09D8F300667531 /* SceneDelegate.m */; };
 		04DAFDA82A09D8F300667531 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DAFDA72A09D8F300667531 /* ViewController.m */; };
-		04DAFDAB2A09D8F300667531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DAFDA92A09D8F300667531 /* Main.storyboard */; };
 		04DAFDAD2A09D8F400667531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DAFDAC2A09D8F400667531 /* Assets.xcassets */; };
 		04DAFDB02A09D8F400667531 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DAFDAE2A09D8F400667531 /* LaunchScreen.storyboard */; };
 		04DAFDB32A09D8F400667531 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DAFDB22A09D8F400667531 /* main.m */; };
@@ -36,14 +37,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		044EC6E72A0E0B840052AA93 /* GTNormalTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTNormalTableViewCell.h; sourceTree = "<group>"; };
+		044EC6E82A0E0B840052AA93 /* GTNormalTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTNormalTableViewCell.m; sourceTree = "<group>"; };
+		04A0E7802A0CD2FA0039B81E /* GTVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTVideoViewController.h; sourceTree = "<group>"; };
+		04A0E7812A0CD2FA0039B81E /* GTVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTVideoViewController.m; sourceTree = "<group>"; };
+		04A0E7862A0CE5F20039B81E /* GTRecommendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTRecommendViewController.h; sourceTree = "<group>"; };
+		04A0E7872A0CE5F20039B81E /* GTRecommendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTRecommendViewController.m; sourceTree = "<group>"; };
 		04DAFD9D2A09D8F300667531 /* WindowTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WindowTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DAFDA02A09D8F300667531 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04DAFDA12A09D8F300667531 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		04DAFDA32A09D8F300667531 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		04DAFDA42A09D8F300667531 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		04DAFDA62A09D8F300667531 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		04DAFDA72A09D8F300667531 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		04DAFDAA2A09D8F300667531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04DAFDAC2A09D8F400667531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04DAFDAF2A09D8F400667531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04DAFDB12A09D8F400667531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -106,15 +110,18 @@
 			children = (
 				04DAFDA02A09D8F300667531 /* AppDelegate.h */,
 				04DAFDA12A09D8F300667531 /* AppDelegate.m */,
-				04DAFDA32A09D8F300667531 /* SceneDelegate.h */,
-				04DAFDA42A09D8F300667531 /* SceneDelegate.m */,
 				04DAFDA62A09D8F300667531 /* ViewController.h */,
 				04DAFDA72A09D8F300667531 /* ViewController.m */,
-				04DAFDA92A09D8F300667531 /* Main.storyboard */,
 				04DAFDAC2A09D8F400667531 /* Assets.xcassets */,
 				04DAFDAE2A09D8F400667531 /* LaunchScreen.storyboard */,
 				04DAFDB12A09D8F400667531 /* Info.plist */,
 				04DAFDB22A09D8F400667531 /* main.m */,
+				04A0E7802A0CD2FA0039B81E /* GTVideoViewController.h */,
+				04A0E7812A0CD2FA0039B81E /* GTVideoViewController.m */,
+				04A0E7862A0CE5F20039B81E /* GTRecommendViewController.h */,
+				04A0E7872A0CE5F20039B81E /* GTRecommendViewController.m */,
+				044EC6E72A0E0B840052AA93 /* GTNormalTableViewCell.h */,
+				044EC6E82A0E0B840052AA93 /* GTNormalTableViewCell.m */,
 			);
 			path = WindowTest;
 			sourceTree = "<group>";
@@ -241,7 +248,6 @@
 			files = (
 				04DAFDB02A09D8F400667531 /* LaunchScreen.storyboard in Resources */,
 				04DAFDAD2A09D8F400667531 /* Assets.xcassets in Resources */,
-				04DAFDAB2A09D8F300667531 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +275,9 @@
 				04DAFDA82A09D8F300667531 /* ViewController.m in Sources */,
 				04DAFDA22A09D8F300667531 /* AppDelegate.m in Sources */,
 				04DAFDB32A09D8F400667531 /* main.m in Sources */,
-				04DAFDA52A09D8F300667531 /* SceneDelegate.m in Sources */,
+				044EC6E92A0E0B840052AA93 /* GTNormalTableViewCell.m in Sources */,
+				04A0E7882A0CE5F20039B81E /* GTRecommendViewController.m in Sources */,
+				04A0E7822A0CD2FA0039B81E /* GTVideoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,14 +313,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		04DAFDA92A09D8F300667531 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04DAFDAA2A09D8F300667531 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		04DAFDAE2A09D8F400667531 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
