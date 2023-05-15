@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		044EC6E92A0E0B840052AA93 /* GTNormalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 044EC6E82A0E0B840052AA93 /* GTNormalTableViewCell.m */; };
+		046311F62A11D245006D87B1 /* GTDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046311F52A11D245006D87B1 /* GTDetailViewController.m */; };
 		04A0E7822A0CD2FA0039B81E /* GTVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A0E7812A0CD2FA0039B81E /* GTVideoViewController.m */; };
 		04A0E7882A0CE5F20039B81E /* GTRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A0E7872A0CE5F20039B81E /* GTRecommendViewController.m */; };
 		04DAFDA22A09D8F300667531 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DAFDA12A09D8F300667531 /* AppDelegate.m */; };
@@ -39,6 +40,8 @@
 /* Begin PBXFileReference section */
 		044EC6E72A0E0B840052AA93 /* GTNormalTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTNormalTableViewCell.h; sourceTree = "<group>"; };
 		044EC6E82A0E0B840052AA93 /* GTNormalTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTNormalTableViewCell.m; sourceTree = "<group>"; };
+		046311F42A11D245006D87B1 /* GTDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTDetailViewController.h; sourceTree = "<group>"; };
+		046311F52A11D245006D87B1 /* GTDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTDetailViewController.m; sourceTree = "<group>"; };
 		04A0E7802A0CD2FA0039B81E /* GTVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTVideoViewController.h; sourceTree = "<group>"; };
 		04A0E7812A0CD2FA0039B81E /* GTVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTVideoViewController.m; sourceTree = "<group>"; };
 		04A0E7862A0CE5F20039B81E /* GTRecommendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTRecommendViewController.h; sourceTree = "<group>"; };
@@ -122,6 +125,8 @@
 				04A0E7872A0CE5F20039B81E /* GTRecommendViewController.m */,
 				044EC6E72A0E0B840052AA93 /* GTNormalTableViewCell.h */,
 				044EC6E82A0E0B840052AA93 /* GTNormalTableViewCell.m */,
+				046311F42A11D245006D87B1 /* GTDetailViewController.h */,
+				046311F52A11D245006D87B1 /* GTDetailViewController.m */,
 			);
 			path = WindowTest;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 				04DAFDA22A09D8F300667531 /* AppDelegate.m in Sources */,
 				04DAFDB32A09D8F400667531 /* main.m in Sources */,
 				044EC6E92A0E0B840052AA93 /* GTNormalTableViewCell.m in Sources */,
+				046311F62A11D245006D87B1 /* GTDetailViewController.m in Sources */,
 				04A0E7882A0CE5F20039B81E /* GTRecommendViewController.m in Sources */,
 				04A0E7822A0CD2FA0039B81E /* GTVideoViewController.m in Sources */,
 			);

@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import "GTDetailViewController.h"
 #import "GTNormalTableViewCell.h"
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
@@ -57,7 +58,7 @@ int i = 0;
 /*item的点击事件*/
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
 //    NSLog(@"item点击了");
-    UIViewController*controller = [[UIViewController alloc]init];
+    GTDetailViewController*controller = [[GTDetailViewController alloc]init];
     controller.title = [NSString stringWithFormat:@"%@",@(indexPath.row)];
     [self.navigationController pushViewController:controller animated:YES];
 }
